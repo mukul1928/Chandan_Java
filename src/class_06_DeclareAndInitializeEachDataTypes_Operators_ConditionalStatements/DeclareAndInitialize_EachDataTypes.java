@@ -1,4 +1,4 @@
-package class_06_DeclareAndInitializeEachDataTypes_Operators;
+package class_06_DeclareAndInitializeEachDataTypes_Operators_ConditionalStatements;
 
 public class DeclareAndInitialize_EachDataTypes {
 	public static void main(String[] args) {

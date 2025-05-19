@@ -1,4 +1,4 @@
-package class_06_DeclareAndInitializeEachDataTypes_Operators;
+package class_06_DeclareAndInitializeEachDataTypes_Operators_ConditionalStatements;
 
 public class ArithmeticOperators {
 	public static void main(String[] args) {
