@@ -1,4 +1,4 @@
-package class_3_Keywords;//keywords are package,public,class,static,void
+package class_03_Keywords;//keywords are package,public,class,static,void
 
 public class Third_Class//Identifier 
 {

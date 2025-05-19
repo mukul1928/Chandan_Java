@@ -1,4 +1,4 @@
-package class_3_Keywords;
+package class_03_Keywords;
 
 //here everything what we see in pink colour is a keywords there are 50 keywords that we have in java
 public class Keywords_In_JavaSelenium {
