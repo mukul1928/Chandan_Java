@@ -6,8 +6,8 @@ public class Create_StaticMethod_Call_In_MainMethod {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Starting of the main method");
 		myname();
+		System.out.println("Starting of the main method");
 		System.out.println("Ending of the main method");
 	}
 
