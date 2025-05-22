@@ -1,4 +1,4 @@
-package class_08_Nested_If_Else_ConditionalStatements;
+package class_08_Nested_If_Else_ConditionalStatements_LogicalOperators_And_Or_Not;
 
 public class Nested_IfElse {
 	public static void main(String[] args) {
