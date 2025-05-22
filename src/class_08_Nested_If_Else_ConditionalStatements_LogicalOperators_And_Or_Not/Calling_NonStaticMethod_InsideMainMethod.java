@@ -8,8 +8,8 @@ public class Calling_NonStaticMethod_InsideMainMethod {
 		int b = 200;
 		System.out.println(a+b);
 	}
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) 
+	{
 		System.out.println("Started");
 		Calling_NonStaticMethod_InsideMainMethod s = new Calling_NonStaticMethod_InsideMainMethod();// This is how we create an object
 		s.add();//Calling non static method inside main method
