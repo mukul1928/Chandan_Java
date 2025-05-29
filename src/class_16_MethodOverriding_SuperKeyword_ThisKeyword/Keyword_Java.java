@@ -14,7 +14,7 @@ public class Keyword_Java
 		this.salary=salary;
 		/*System.out.println(age);
 		System.out.println(name);
-		System.out.println(salary);*/
+		System.out.println(salary);*/ 
 	}
 	public static void main(String[] args) 
 	{
