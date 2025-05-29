@@ -18,8 +18,9 @@ public class MethodOverRidingSchool_Class extends Collage_Class
 {
 	void bookstowrite()
 	{
+		super.bookstowrite();
 		System.out.println("Writing to top the class");
-		super.bookstowrite();//This is called as super keyword which is used to call the parent class implementation together with the child class implementation
+	//	super.bookstowrite();//This is called as super keyword which is used to call the parent class implementation together with the child class implementation
 	}
 	public static void main(String[] args) 
 	{
