@@ -8,7 +8,7 @@ public class FindMonth_Date_Year
 	{
 		Date d = new Date();
 		System.out.println(d.getTime());
-		Date d1 = new Date(d.getTime());
+		Date d1 = new Date(d.getTime()+(1000*60*60*24*1)); //for finding the future time + for finding the past time -
 		System.out.println(d1);
 		//month
 		//date
@@ -21,5 +21,12 @@ public class FindMonth_Date_Year
 		System.out.println(a1.length());
 		String year = a1.substring(24, 28);
 		System.out.println(year);
+		//date format-> DD MMM YYYY
+		System.out.println(date.concat(month).concat(year));
+		System.out.println(date.concat("").concat(month).concat(" ").concat(year));
+		//date format-> DD-MMM-YYYY
+		System.out.println(date.concat("-").concat(month).concat("-").concat(year));
+		//date format-> DD/MMM/YYYY
+		System.out.println(date.concat("/").concat(month).concat("/").concat(year));
 	}
 }
