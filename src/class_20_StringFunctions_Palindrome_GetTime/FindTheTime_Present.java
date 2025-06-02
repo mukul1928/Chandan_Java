@@ -2,7 +2,7 @@ package class_20_StringFunctions_Palindrome_GetTime;
 
 import java.util.Date;
 
-public class FindTheTime_Present_Past_Future 
+public class FindTheTime_Present
 {
 public static void main(String[] args) {
 	Date d = new Date();
