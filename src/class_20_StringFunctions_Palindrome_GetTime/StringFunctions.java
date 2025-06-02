@@ -19,9 +19,14 @@ public class StringFunctions
 		String name1 = "world no 1";
 		System.out.println(name1.replaceAll("[0-9]", " "));
 		System.out.println(name1.replaceAll("[a-z]", " "));
-		String name2 = "chandan KUMAR PANDEY";
-		System.out.println(name2.replaceAll("[a-z]", ""));
-		System.out.println(name2.replaceAll("[A-Z]", ""));
+		String name2 = "chandan Kumar PANDEY";
+		System.out.println(name2.replaceAll("[a-z]", "")); // will remove all the smaller letter from the given String "chandan"
+		System.out.println(name2.replaceAll("[A-Z]", "")); // will remove all the capital letter from the given String "KUMAR PANDEY"
+		String m2 = "";
+		System.out.println(m2.isEmpty());
+		System.out.println(name1.equals(name));
+		System.out.println("Chandan".equals("chandan"));
+		System.out.println("chandan".equals("chandan"));
 	}
 }
 
