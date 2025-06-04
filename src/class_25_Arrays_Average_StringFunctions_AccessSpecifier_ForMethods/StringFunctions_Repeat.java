@@ -4,7 +4,7 @@ public class StringFunctions_Repeat
 {
 	public static void main(String[] args) {
 		String a = " Chandan";
-		String repeat = a.repeat(10);
+		String repeat = a.repeat(10);//This string function will repeat my output to 10th times 
 		System.out.println(repeat);
 	}
 }
