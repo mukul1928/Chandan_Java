@@ -1,4 +1,4 @@
-package class_27_TypeCasting;
+package class_27_TypeCasting_DownCasting;
 //Primititive TypeCasting
 
 public class ConvertYourWeightFromIntToDouble_Widening 

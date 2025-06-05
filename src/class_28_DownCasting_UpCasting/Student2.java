@@ -31,6 +31,16 @@ public class Student2 extends Experience_Student
 	}
 	public static void main(String[] args) 
 	{
-		
+		Mentor2 m2 = new Experience_Student();
+		m2.add();
+		m2.sub();
+		Student2 s2 = (Student2) m2; //only explicit way this is DownCasting
+		/*
+		 * Once you have downcasted with the help of its reference variable 
+		 * you can access any of the methods from that class till the top of the class methods 
+		 * but not the below ones
+		 */
+		s2.mul();
+		s2.div();
 	}
 }

@@ -27,5 +27,12 @@ public class Student extends Mentor
 		Mentor m1 = new Student();
 		m1.add();
 		m1.sub();
+		Student s1 = (Student) m1; // only explicit way this is DownCasting
+		/*
+		 * Once you have downcasted with the help of its reference variable 
+		 * you can access any of the methods from that class till the top of the class methods 
+		 * but not the below ones
+		 */
+		s1.mul();
 	}
 }
