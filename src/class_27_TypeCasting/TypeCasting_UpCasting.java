@@ -14,6 +14,7 @@ public class TypeCasting_UpCasting extends Parent_Class
 	{
 		System.out.println("Sub");
 	}
+	
 	public static void main(String[] args) 
 	{
 		Parent_Class p1 = new TypeCasting_UpCasting(); // UpCasting
