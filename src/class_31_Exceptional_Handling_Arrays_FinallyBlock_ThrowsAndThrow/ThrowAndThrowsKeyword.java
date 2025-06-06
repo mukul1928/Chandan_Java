@@ -2,7 +2,7 @@ package class_31_Exceptional_Handling_Arrays_FinallyBlock_ThrowsAndThrow;
 
 import java.util.InputMismatchException;
 
-public class ThrowKeyword 
+public class ThrowAndThrowsKeyword 
 {
 	public static void main(String[] args) throws ArrayIndexOutOfBoundsException,NullPointerException,InputMismatchException
 	{
