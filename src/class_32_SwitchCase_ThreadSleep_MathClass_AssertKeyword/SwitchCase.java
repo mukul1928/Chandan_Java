@@ -19,10 +19,14 @@ public class SwitchCase
 		case 3:
 			
 				System.out.println("Your logic 3 will be here");
-			
+				break;
 		case 4:
 			
 				System.out.println("Your logic 4 will be here");
+				break;
+				
+				default:
+				System.out.println("The selection that you have made is wrong");
 		}
 	}
 }
