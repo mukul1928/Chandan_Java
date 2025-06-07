@@ -6,6 +6,8 @@ package class_16_MethodOverriding_SuperKeyword_ThisKeyword;
  * super keyword has to be used only in the case of non-static context or a non-static methods.
  * 
  * super keyword can be the firs line or any line inside the non-static method.
+ * 
+ * Run Time Polymorphism
  */
 class Collage_Class
 {
