@@ -8,7 +8,7 @@ public class WhileLoop
 		while(a>5)
 		{
 			System.out.println("chandan");
-			a--;
+			a--; // if we write a++ it will run till the int value ends means never ending loop
 		}
 	}
 }
