@@ -13,7 +13,8 @@ public class ArrayList_Class
 		a1.add("Chandan");
 		a1.add(false);
 		a1.add('M');
-		a1.add(3.345);
+		a1.add(3.34);
 		System.out.println(a1);
+		
 	}
 }
