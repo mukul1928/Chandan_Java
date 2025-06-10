@@ -10,5 +10,14 @@ public class WhileLoop
 			System.out.println("chandan");
 			a--; // if we write a++ it will run till the int value ends means never ending loop
 		}
+		
+		// Second example :-
+		
+		int s = 12;
+		while(s>0)
+		{
+			System.out.println(s);
+			s--; 
+		}
 	}
 }
