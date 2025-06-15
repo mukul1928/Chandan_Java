@@ -17,7 +17,6 @@ public class PrintAscendingOrderInArray {
 					int temp = ar[i];
 					ar[i] = ar[j];
 					ar[j] = temp;
-
 				}
 			}
 		}
