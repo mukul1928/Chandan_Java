@@ -9,12 +9,10 @@ public class AverageSample
 		
 		for(int i=1;i<=20;i++) 
 		{
-			
 			sum=sum+i;
 			average = sum/i;
 		}
 		System.out.println(sum);
 		System.out.println(average);
 	}
-
 }

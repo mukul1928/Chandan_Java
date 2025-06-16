@@ -1,6 +1,7 @@
 package Practice_Java_Interview_Questions;
 
-public class PrintVowelCount {
+public class PrintVowelCount 
+{
 	public static void main(String[] args) {
 		String s = "welcome to java class today";
 		char[] ch = s.toCharArray();
