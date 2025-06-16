@@ -5,13 +5,15 @@ public class PrintVowelCount {
 		String s = "welcome to java class today";
 		char[] ch = s.toCharArray();
 		int count = 0;
-		for (int i = 0; i < ch.length; i++) {
+		for (int i = 0; i < ch.length; i++) 
+		{
 			char c = ch[i];
 			if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O'
-					|| c == 'U') {
+					|| c == 'U') 
+			{
 				count++;
 			}
 		}
-		System.out.println(count);
+		System.out.println("Total no of the vovels are "+ count);
 	}
 }
