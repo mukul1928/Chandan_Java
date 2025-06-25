@@ -18,6 +18,7 @@ public class Hashmap_EmpKey_Value
 		map.put("KrishnaG", 06);
 		map.put("GaneshG", 07);
 		// map.put("ShaniG", 08);
+		
 		for (Map.Entry<String, Integer> element : map.entrySet())
 		{
 			System.out.println("Key:" + element.getKey() + " Value:" + element.getValue());
