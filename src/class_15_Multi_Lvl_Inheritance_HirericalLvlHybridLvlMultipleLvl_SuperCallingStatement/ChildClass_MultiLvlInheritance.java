@@ -21,7 +21,7 @@ class Parent extends SuperParent
 		System.out.println("div");
 	}
 }
-public class ChildClass_MultipleLvlInheritance extends Parent
+public class ChildClass_MultiLvlInheritance extends Parent
 {
 	void modu()
 	{
@@ -29,7 +29,7 @@ public class ChildClass_MultipleLvlInheritance extends Parent
 	}
 	public static void main(String[] args) 
 	{
-		ChildClass_MultipleLvlInheritance c = new ChildClass_MultipleLvlInheritance();
+		ChildClass_MultiLvlInheritance c = new ChildClass_MultiLvlInheritance();
 		c.add();
 		c.sub();
 		c.mul();
