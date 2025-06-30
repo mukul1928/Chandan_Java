@@ -1,5 +1,5 @@
 package class_09_Constructors_MethodOverloading;
-// Compile Tim Polymorphism
+// Compile Time Polymorphism
 public class MethodOverloading 
 {
 	void add()
