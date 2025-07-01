@@ -4,7 +4,7 @@ public class ReverseYourName
 {
 	public static void main(String[] args) 
 	{
-		String name = "chandan";
+		String name = "chandan smita pandey";
 		String rev = "";
 		/*char ch;
 		for(int i=0;i<name.length();i++)

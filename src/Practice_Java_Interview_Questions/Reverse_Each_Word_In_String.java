@@ -15,6 +15,5 @@ public class Reverse_Each_Word_In_String {
 			s2 = s2 + s5 + " ";
 		}
 		System.out.println(s2);
-
 	}
 }
