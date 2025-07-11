@@ -25,4 +25,4 @@ public class ReverseTheNum_1234_WhileLoop {
 //the given statement
 //remainder = 4,3
 //sum = 4,43
-//num = 123,12
+//num = 123,12 
