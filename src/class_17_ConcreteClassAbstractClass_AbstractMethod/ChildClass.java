@@ -14,12 +14,12 @@ abstract class ParentClass //exposing this to the third party applications
 }
 public class ChildClass extends ParentClass
 {
-	@Override
+	
 	void substract()
 	{
 		System.out.println("Real Logic Substract");
 	}
-	@Override
+	
 	void add() //concrete method 
 	{
 		System.out.println("Real Logic");
