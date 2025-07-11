@@ -26,12 +26,12 @@ public class RelationBwnClassWithInterface implements One1
 		a.areaofrectangle();
 		areaofcircle();
 	}
-	@Override
+	
 	public void addition() 
 	{
 		System.out.println("The real logic can be here for addition");
 	}
-	@Override
+
 	public void substraction() 
 	{
 		System.out.println("The real logic can be here for substraction");
