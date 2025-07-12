@@ -5,7 +5,7 @@ package class_33_Polymorphism_Encapsulation;
  * 
  * super keyword has to be used only in the case of non-static context or a non-static methods.
  * 
- * super keyword can be the firs line or any line inside the non-static method.
+ * super keyword can be the first line or any line inside the non-static method.
  */ 
 
 public class ComplieTimePolymorphism // Method Overloading
