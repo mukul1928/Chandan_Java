@@ -6,9 +6,9 @@ class AnimalG
 		System.out.println("Animal Constructor");
 	}
 }
-class DogG extends AnimalG
+class Doggg extends AnimalG
 {
-	DogG()
+	Doggg()
 	{
 		super(); // Calls Animal's constructor
 		System.out.println("Dog Constructor");
@@ -18,6 +18,6 @@ public class Super_CallingConstructor
 {
 	public static void main(String[] args)
 	{
-		new DogG();
+		new Doggg();
 	}
 }
