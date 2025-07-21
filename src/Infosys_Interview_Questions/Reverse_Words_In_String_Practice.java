@@ -10,7 +10,5 @@ public class Reverse_Words_In_String_Practice {
 			s = s + rev[i] + " ";
 		}
 		System.out.println(s);
-
 	}
-
 }
