@@ -15,7 +15,7 @@ public class FindArmStrongNumber {
 			arm = arm + a * a * a;
 		}
 		if (arm == d) {
-			System.out.println("Armstrong number");
+			System.out.println("Armstrong number"); //371
 		} else {
 			System.out.println("Not Armstorng number");
 		}
