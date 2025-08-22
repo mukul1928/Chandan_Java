@@ -6,11 +6,11 @@ public class Palindrome_Practice {
 		String reverse = "";
 		for (int i = name.length() - 1; i >= 0; i--) {
 			char ans = name.charAt(i);
-			reverse = ans + reverse;
+			reverse = reverse + ans;
 		}
-		boolean a = name.equals(reverse);
-		System.out.println(a);
-		if (a == true) {
+		boolean ans = name.equals(reverse);
+		System.out.println(ans);
+		if (ans == true) {
 			System.out.println("palindrome ");
 		} else {
 			System.out.println("Not a Palindrome");

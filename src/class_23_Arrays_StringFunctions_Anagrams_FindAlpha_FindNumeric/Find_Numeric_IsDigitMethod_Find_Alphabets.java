@@ -1,6 +1,6 @@
 package class_23_Arrays_StringFunctions_Anagrams_FindAlpha_FindNumeric;
 
-public class Find_Numeric_IsDigitMethod 
+public class Find_Numeric_IsDigitMethod_Find_Alphabets 
 {
 	public static void main(String[] args) 
 	{
